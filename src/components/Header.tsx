@@ -10,18 +10,13 @@ const Header: React.FC = () => {
       <nav>
         <ul className="flex space-x-3 md:space-x-6">
           <li>
-          <Link to="portfolio" smooth={true} duration={200} offset={-50} className="hover:cursor-pointer">
-              Portfolio
-            </Link>
-          </li>
-          <li>
-          <Link to="skills" smooth={true} duration={200} offset={-50} className="hover:cursor-pointer">
-              Skills
+          <Link to="aboutme" smooth={true} duration={200} offset={-50} className="hover:cursor-pointer">
+              About me / Skills
           </Link>
           </li>
           <li>
-          <Link to="aboutme" smooth={true} duration={200} offset={-50} className="hover:cursor-pointer">
-              About me
+          <Link to="projects" smooth={true} duration={200} offset={-50} className="hover:cursor-pointer">
+              Projects
           </Link>
           </li>
           <li>

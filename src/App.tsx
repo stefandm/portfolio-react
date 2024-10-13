@@ -1,12 +1,11 @@
 import './App.css'
-import AboutMe from './components/AboutMe'
+import AboutMeAndSkills from './components/AboutMeAndSkills'
 import Contact from './components/Contact'
 import DisplayName from './components/DisplayName'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero/Hero'
-import Portfolio from './components/Portfolio'
-import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -15,9 +14,8 @@ function App() {
       <DisplayName/>
       <Header/>
       <Hero/>
-      <AboutMe/>
-      <Skills/>
-      <Portfolio/>
+      <AboutMeAndSkills/>
+      <Projects/>
       <Contact/>
       <Footer/>
     </>

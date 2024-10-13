@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       </div>
       <div className='flex justify-between mb-[1vh]'>
       <img
-        className='ml-[15vw] object-cover  w-[20vw] rounded-bl-[30%]'
+        className='ml-[15vw] mb-2 object-cover  w-[20vw] rounded-bl-[30%]'
         src={profile}
         alt='profile picture'
       />
@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           {/* <span className={styles.blinkingCursor} aria-hidden="true">|</span> */}
         </h2>
         <p className="mt-4 text-lg text-gray-700 font-normal">
-        Hello! I'm  a Front-End Developer dedicated to crafting responsive and user-friendly web experiences through elegant problem-solving and continuous learning. Let's collaborate to bring your digital vision to life and create something amazing together!        </p>
+        Self-taught Front-End Developer dedicated to crafting responsive and user-friendly web experiences through elegant problem-solving and continuous learning. Let's collaborate to bring your digital vision to life and create something amazing together!        </p>
         <div className='mt-6'>
         <a href='#contact' className='h-[5vh] w-[10vw] font-medium border-2 border-black hover:bg-slate-200 p-2'>Get in Touch</a>
         </div>
