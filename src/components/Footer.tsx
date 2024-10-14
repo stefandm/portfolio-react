@@ -1,6 +1,5 @@
 // src/components/Footer.tsx
 
-import React from 'react';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
