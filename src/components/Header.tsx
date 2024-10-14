@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         S.D.
       </Link>
       <nav>
-        <ul className="flex space-x-3 md:space-x-6">
+        <ul className="flex space-x-3 md:space-x-6 text-sm md:text-base">
           <li>
           <Link to="aboutme" smooth={true} duration={600} offset={-60} className="hover:cursor-pointer">
               About me / Skills
