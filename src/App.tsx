@@ -1,5 +1,5 @@
 import './App.css'
-import AboutMeAndSkills from './components/AboutMeAndSkills'
+import AboutMeAndSkills from './components/About/AboutMeAndSkills'
 import Contact from './components/Contact'
 import DisplayName from './components/DisplayName'
 import Footer from './components/Footer'

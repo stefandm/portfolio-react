@@ -14,7 +14,7 @@ interface AnimatedWordProps {
 const AnimatedWord: React.FC<AnimatedWordProps> = ({
   words,
   typingSpeed = 100,
-  deletingSpeed = 100,
+  deletingSpeed = 75,
   pauseDuration = 2000,
 }) => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
