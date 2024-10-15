@@ -1,11 +1,9 @@
-// src/components/Footer.tsx
-
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
-  const emailAddress = 'demirel.stefan@yahoo.com'; // Replace with your actual email
-  const githubLink = 'https://github.com/stefandm'; // Replace with your GitHub profile URL
-  const linkedinLink = 'https://www.linkedin.com/in/stefan-demirel-730b9124b/'; // Replace with your LinkedIn profile URL
+  const emailAddress = 'demirel.stefan@yahoo.com'; 
+  const githubLink = 'https://github.com/stefandm'; 
+  const linkedinLink = 'https://www.linkedin.com/in/stefan-demirel-730b9124b/'; 
 
   return (
     <footer className="w-full bg-slate-800 py-6">

@@ -1,4 +1,3 @@
-// src/components/Projects.tsx
 
 import React from 'react';
 import { motion, Variants } from 'framer-motion';
@@ -9,14 +8,14 @@ const Projects: React.FC = () => {
   // Animation variants for the background color
   const backgroundVariants: Variants = {
     initial: {
-      backgroundColor: '#FFFFFF', // White background
+      backgroundColor: '#FFFFFF',
       transition: {
         duration: 2,
         ease: 'easeInOut',
       },
     },
     inView: {
-      backgroundColor: '#334155', // Dark background
+      backgroundColor: '#334155', 
       transition: {
         duration: 1,
         ease: 'easeInOut',
@@ -27,14 +26,14 @@ const Projects: React.FC = () => {
   // Animation variants for the gradient overlay
   const gradientVariants: Variants = {
     initial: {
-      opacity: 0, // Fully transparent
+      opacity: 0, 
       transition: {
         duration: 1,
         ease: 'easeInOut',
       },
     },
     inView: {
-      opacity: 1, // Fully visible
+      opacity: 1, 
       transition: {
         duration: 1,
         ease: 'easeInOut',
@@ -45,14 +44,14 @@ const Projects: React.FC = () => {
   // Animation variants for the text color
   const textVariants: Variants = {
     initial: {
-      color: '#1F2937', // Tailwind's gray-800 (dark gray)
+      color: '#1F2937',
       transition: {
         duration: 1,
         ease: 'easeInOut',
       },
     },
     inView: {
-      color: '#FFFFFF', // White text
+      color: '#FFFFFF', 
       transition: {
         duration: 1,
         ease: 'easeInOut',
@@ -64,7 +63,7 @@ const Projects: React.FC = () => {
   const projectVariants: Variants = {
     initial: {
       opacity: 0,
-      y: 50, // Start 50px below
+      y: 50, 
       transition: {
         duration: 0.8,
         ease: 'easeOut',
@@ -72,7 +71,7 @@ const Projects: React.FC = () => {
     },
     inView: {
       opacity: 1,
-      y: 0, // Move to original position
+      y: 0,
       transition: {
         duration: 0.8,
         ease: 'easeOut',
