@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   const dynamicWords = ['Developer', 'Designer']; // Words to cycle through
 
   return (
-    <section className="flex flex-col min-h-[70vh] xl:h-[90vh] justify-between  overflow-auto mb-[10vh] text-blue-950" id='hero'>
+    <section className="flex flex-col min-h-[70vh] xl:h-[90vh] justify-between  overflow-auto mb-[10vh] " id='hero'>
       {/* Main Heading */}
       <div className="flex  justify-start ml-[10vw] mt-[5vh]">
         <h1 className="text-7xl md:text-9xl font-semibold ">Stefan Demirel</h1>

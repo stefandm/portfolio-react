@@ -8,7 +8,7 @@ const Footer = () => {
   const linkedinLink = 'https://www.linkedin.com/in/stefan-demirel-730b9124b/'; // Replace with your LinkedIn profile URL
 
   return (
-    <footer className="w-full bg-gray-200 dark:bg-gray-800 py-6">
+    <footer className="w-full bg-slate-800 py-6">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         {/* Left Side: Your Name */}
         <div className="mb-4 md:mb-0">

@@ -51,15 +51,15 @@ const AboutMeAndSkills: React.FC = () => {
         </p>
         <h1 className='text-6xl font-semibold mt-6 md:mt-0'>Skills</h1>
         <div className='flex flex-wrap gap-6 justify-around items-center mt-6 md:mt-0'>
-          <SkillItem Icon={FaHtml5} label='HTML' color='text-orange-500' />
-          <SkillItem Icon={FaCss3Alt} label='CSS' color='text-blue-500' />
+          <SkillItem Icon={FaHtml5} label='HTML' color='text-orange-700' />
+          <SkillItem Icon={FaCss3Alt} label='CSS' color='text-blue-700' />
           <SkillItem Icon={IoLogoJavascript} label='JavaScript' color='text-yellow-500' />
-          <SkillItem Icon={TbApi} label='API' color='text-indigo-500' />
+          <SkillItem Icon={TbApi} label='API' color='text-indigo-700' />
           <SkillItem Icon={BiLogoTypescript} label='TypeScript' color='text-blue-700' />
-          <SkillItem Icon={FaGitAlt} label='Git' color='text-red-500' />
-          <SkillItem Icon={DiScrum} label='Scrum' color='text-pink-500' />
-          <SkillItem Icon={FaReact} label='React' color='text-blue-400' />
-          <SkillItem Icon={IoLogoFirebase} label='Firebase' color='text-orange-500' />
+          <SkillItem Icon={FaGitAlt} label='Git' color='text-red-700' />
+          <SkillItem Icon={DiScrum} label='Scrum' color='text-pink-700' />
+          <SkillItem Icon={FaReact} label='React' color='text-blue-700' />
+          <SkillItem Icon={IoLogoFirebase} label='Firebase' color='text-orange-700' />
         </div>
       </motion.div>
 

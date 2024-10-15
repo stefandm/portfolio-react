@@ -1,4 +1,4 @@
-// src/components/Projects.tsx 
+// src/components/Projects.tsx
 
 import React from 'react';
 import { motion, Variants } from 'framer-motion';
@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
       },
     },
     inView: {
-      backgroundColor: '#1e40af', // Black background
+      backgroundColor: '#334155', // Dark background
       transition: {
         duration: 1,
         ease: 'easeInOut',
@@ -60,22 +60,22 @@ const Projects: React.FC = () => {
     },
   };
 
-  // Animation variants for the project images
-  const imageVariants: Variants = {
+  // Animation variants for the project containers
+  const projectVariants: Variants = {
     initial: {
       opacity: 0,
-      y: 100, // Slight downward position
+      y: 50, // Start 50px below
       transition: {
-        duration: 0.6,
-        ease: 'easeIn',
+        duration: 0.8,
+        ease: 'easeOut',
       },
     },
     inView: {
       opacity: 1,
       y: 0, // Move to original position
       transition: {
-        duration: 0.6,
-        ease: 'easeIn',
+        duration: 0.8,
+        ease: 'easeOut',
       },
     },
   };
@@ -83,11 +83,11 @@ const Projects: React.FC = () => {
   return (
     <motion.div
       id='projects'
-      className=' min-h-screen flex flex-col justify-center items-center py-6 px-5 md:px-20 relative overflow-hidden antialiased transform-gpu'
+      className='min-h-screen flex flex-col justify-center items-center py-6 px-5 md:px-20 relative overflow-hidden antialiased transform-gpu'
       variants={backgroundVariants}
       initial='initial'
       whileInView='inView'
-      viewport={{ once: false, amount: 0.5 }} // Trigger when 50% of the component is in view
+      viewport={{ once: true, amount: 0.5 }} // Trigger when 50% of the component is in view
     >
       {/* Solid White Background Layer */}
       <motion.div
@@ -103,40 +103,47 @@ const Projects: React.FC = () => {
 
       {/* Main Heading */}
       <motion.h1
-        className='text-6xl md:text-7xl font-semibold mt-12 mb-24 z-20'
+        className='text-6xl md:text-7xl font-semibold mt-[15vh] mb-[15vh] z-20 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
         variants={textVariants}
       >
         Projects
       </motion.h1>
 
       {/* Projects Container */}
-      <div className='flex flex-col md:flex-row justify-between items-center w-full md:w-screen gap-8 z-20'>
+      <div className='flex flex-col justify-between items-center w-full md:w-screen gap-20 z-20'>
         {/* Project 1 */}
-        <div className='flex flex-col items-center justify-center w-full md:w-1/2 gap-6'>
-          <motion.img
-            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg hover:scale-105 transition-transform duration-300'
+        <motion.div
+          className='flex flex-col md:flex-row justify-center items-center w-full'
+          variants={projectVariants}
+          initial='initial'
+          whileInView='inView'
+          viewport={{ once: true, amount: 0.5 }}
+        >
+          <img
+            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 border-2 border-gray-400 '
             src={apexMockup}
             alt='Apex Project Mockup'
-            variants={imageVariants}
-            initial='initial'
-            whileInView='inView'
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
             loading='lazy'
           />
-          <div className='flex flex-col  items-center w-full md:w-1/2'>
+          <motion.div className='flex flex-col items-center w-full md:w-1/2'>
             <motion.h2
-              className='text-2xl text-center font-semibold mb-4'
+              className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
               Apex Pulse - Boxing Gym Landing Page
             </motion.h2>
+            <motion.h3
+              className='text-xl text-center font-normal mb-4'
+              variants={textVariants}
+            >
+              React
+            </motion.h3>
             <div className='flex gap-4'>
               <a
                 href='https://github.com/stefandm/apexPulse' // Replace with actual GitHub link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-blue-400 text-white rounded hover:bg-blue-600 transition-colors duration-300'
+                className='px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition-colors duration-300'
               >
                 GitHub
               </a>
@@ -144,40 +151,41 @@ const Projects: React.FC = () => {
                 href='https://stefandm.github.io/apexPulse/' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors duration-300'
+                className='px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800 transition-colors duration-300'
               >
                 Live Site
               </a>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
 
         {/* Project 2 */}
-        <div className='flex flex-col items-center w-full md:w-1/2 gap-6'>
-          <motion.img
-            className='mb-10 object-cover w-full  md:w-[35vw] rounded-lg shadow-lg  transition-transform duration-300 transform '
-            src={biteMockup}
-            alt='Bite Project Mockup'
-            variants={imageVariants}
-            initial='initial'
-            whileInView='inView'
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
-            loading='lazy'
-          />
-          <div className='flex flex-col  items-center  w-full md:w-1/2'>
+        <motion.div
+          className='flex flex-col-reverse md:flex-row justify-center items-center w-full'
+          variants={projectVariants}
+          initial='initial'
+          whileInView='inView'
+          viewport={{ once: true, amount: 0.5 }}
+        >
+          <motion.div className='flex flex-col items-center w-full md:w-1/2'>
             <motion.h2
-              className='text-2xl  text-center font-semibold mb-4'
+              className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
               Bite Buddy - Recipe Search Engine
             </motion.h2>
+            <motion.h3
+              className='text-xl text-center font-normal mb-4'
+              variants={textVariants}
+            >
+              React, Typescript, Firebase
+            </motion.h3>
             <div className='flex gap-4'>
               <a
                 href='https://github.com/stefandm/biteBuddy' // Replace with actual GitHub link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-blue-400 text-white rounded hover:bg-blue-600 transition-colors duration-300'
+                className='px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition-colors duration-300'
               >
                 GitHub
               </a>
@@ -185,13 +193,19 @@ const Projects: React.FC = () => {
                 href='https://stefandm.github.io/biteBuddy/' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors duration-300'
+                className='px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800 transition-colors duration-300'
               >
                 Live Site
               </a>
             </div>
-          </div>
-        </div>
+          </motion.div>
+          <img
+            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg  hover:scale-105 transition-transform duration-300  border-2 border-gray-400 '
+            src={biteMockup}
+            alt='Bite Project Mockup'
+            loading='lazy'
+          />
+        </motion.div>
       </div>
     </motion.div>
   );
