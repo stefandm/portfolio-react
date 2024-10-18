@@ -18,14 +18,14 @@ const Contact = () => {
       {/* Email Display */}
       <a
         href={`mailto:${emailAddress}`}
-        className="flex items-center space-x-4 bg-slate-800 p-6 rounded-lg shadow-sm hover:shadow-2xl transition-shadow duration-300 px-4"
+        className="flex items-center space-x-4 bg-slate-800 p-6 rounded-lg shadow-sm hover:shadow-2xl transition-shadow duration-300 px-4 "
         aria-label={`Send an email to ${emailAddress}`}
       >
         {/* Mail Icon */}
         <FaEnvelope className="text-blue-500 text-3xl" />
 
         {/* Email Text */}
-        <span className="text-xl md:text-2xl font-medium text-gray-700 dark:text-gray-200">
+        <span className="text-xl md:text-2xl font-medium text-gray-200 dark:text-gray-200">
           {emailAddress}
         </span>
       </a>

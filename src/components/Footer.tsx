@@ -1,3 +1,5 @@
+// src/components/Footer.tsx
+
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
@@ -10,7 +12,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         {/* Left Side: Your Name */}
         <div className="mb-4 md:mb-0">
-          <p className="text-gray-700 dark:text-gray-200 text-lg font-semibold">
+          <p className="text-gray-200 dark:text-gray-200 text-lg font-semibold">
             &copy; {new Date().getFullYear()} @Stefan Demirel
           </p>
         </div>
@@ -20,7 +22,7 @@ const Footer = () => {
           {/* Email Link */}
           <a
             href={`mailto:${emailAddress}`}
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-500 transition-colors duration-300"
+            className="text-white hover:text-blue-500 transition-colors duration-300"
             aria-label="Send Email"
           >
             <FaEnvelope size={24} />
@@ -31,7 +33,7 @@ const Footer = () => {
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-500 transition-colors duration-300"
+            className="text-white hover:text-blue-500 transition-colors duration-300"
             aria-label="GitHub Profile"
           >
             <FaGithub size={24} />
@@ -42,7 +44,7 @@ const Footer = () => {
             href={linkedinLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 dark:text-gray-200 hover:text-blue-500 transition-colors duration-300"
+            className="text-white hover:text-blue-500 transition-colors duration-300"
             aria-label="LinkedIn Profile"
           >
             <FaLinkedin size={24} />
