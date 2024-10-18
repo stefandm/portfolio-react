@@ -129,7 +129,7 @@ const Projects: React.FC = () => {
               className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
-              Apex Pulse - Boxing Gym Landing Page
+              Apex Pulse - Boxing Gym
             </motion.h2>
             <motion.h3
               className='text-xl text-center font-normal mb-4'
@@ -171,7 +171,7 @@ const Projects: React.FC = () => {
               className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
-              Bite Buddy - Recipe Search Engine
+              Bite Buddy - Recipe Api
             </motion.h2>
             <motion.h3
               className='text-xl text-center font-normal mb-4'
