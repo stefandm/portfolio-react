@@ -207,20 +207,26 @@ const Projects: React.FC = () => {
           />
         </motion.div>
 
-                {/* Project 3*/}
-                <motion.div
-          className='flex flex-col-reverse md:flex-row justify-center items-center w-full'
+         {/* Project 1 */}
+         <motion.div
+          className='flex flex-col md:flex-row justify-center items-center w-full'
           variants={projectVariants}
           initial='initial'
           whileInView='inView'
           viewport={{ once: true, amount: 0.5 }}
         >
+          <img
+            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 border-2 border-gray-400 '
+            src={kanbanMockup}
+            alt='Apex Project Mockup'
+            loading='lazy'
+          />
           <motion.div className='flex flex-col items-center w-full md:w-1/2'>
             <motion.h2
               className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
-              Kanban - Kanban Board 
+              Kanban - Kanban Board
             </motion.h2>
             <motion.h3
               className='text-xl text-center font-normal mb-4'
@@ -247,12 +253,6 @@ const Projects: React.FC = () => {
               </a>
             </div>
           </motion.div>
-          <img
-            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg  hover:scale-105 transition-transform duration-300  border-2 border-gray-400 '
-            src={kanbanMockup}
-            alt='Bite Project Mockup'
-            loading='lazy'
-          />
         </motion.div>
       </div>
     </motion.div>
