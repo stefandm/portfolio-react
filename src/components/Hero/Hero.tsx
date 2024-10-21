@@ -1,13 +1,13 @@
 
 import React from 'react';
-import AnimatedWord from './AnimatedWord'; // Import the AnimatedWord component
+import AnimatedWord from './AnimatedWord';
 import profile from '../../assets/profile.png'
 
 import {Link} from 'react-scroll'
 
 
 const Hero: React.FC = () => {
-  const dynamicWords = ['Developer', 'Designer']; // Words to cycle through
+  const dynamicWords = ['Developer', 'Designer'];
 
   return (
     <section className="flex flex-col min-h-[70vh] xl:h-[90vh] justify-between  overflow-auto mb-[10vh] " id='hero'>

@@ -10,14 +10,14 @@ const Footer = () => {
   return (
     <footer className="w-full bg-slate-800 py-6">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-        {/* Left Side: Your Name */}
+        {/* Left Side*/}
         <div className="mb-4 md:mb-0">
           <p className="text-gray-200 dark:text-gray-200 text-lg font-semibold">
             &copy; {new Date().getFullYear()} @Stefan Demirel
           </p>
         </div>
 
-        {/* Right Side: Links */}
+        {/* Right Side*/}
         <div className="flex space-x-6">
           {/* Email Link */}
           <a
@@ -28,7 +28,6 @@ const Footer = () => {
             <FaEnvelope size={24} />
           </a>
 
-          {/* GitHub Link */}
           <a
             href={githubLink}
             target="_blank"
@@ -39,7 +38,6 @@ const Footer = () => {
             <FaGithub size={24} />
           </a>
 
-          {/* LinkedIn Link */}
           <a
             href={linkedinLink}
             target="_blank"

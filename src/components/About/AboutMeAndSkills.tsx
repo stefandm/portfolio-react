@@ -11,25 +11,23 @@ import SkillItem from './SkillItem';
 const AboutMeAndSkills: React.FC = () => {
   const shouldReduceMotion = useReducedMotion();
 
-  // Define animation variants for the text section
   const textVariants: Variants = shouldReduceMotion
     ? {
         hidden: { opacity: 1, x: 0 },
         visible: { opacity: 1, x: 0 },
       }
     : {
-        hidden: { x: -200, opacity: 0 }, // Using px units for transforms
+        hidden: { x: -200, opacity: 0 },
         visible: { x: 0, opacity: 1 },
       };
 
-  // Define animation variants for the image section
   const imageVariants: Variants = shouldReduceMotion
     ? {
         hidden: { opacity: 1, x: 0 },
         visible: { opacity: 1, x: 0 },
       }
     : {
-        hidden: { x: 200, opacity: 0 }, // Using px units for transforms
+        hidden: { x: 200, opacity: 0 },
         visible: { x: 0, opacity: 1 },
       };
 
@@ -74,7 +72,7 @@ const AboutMeAndSkills: React.FC = () => {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 1.2, ease: 'easeInOut' }}
         style={{ willChange: 'transform' }}
-        loading='lazy' // Optimizes image loading
+        loading='lazy' 
       />
     </div>
   );

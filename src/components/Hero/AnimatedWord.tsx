@@ -1,14 +1,12 @@
-// src/components/Hero/AnimatedWord.tsx
-
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
 
 interface AnimatedWordProps {
   words: string[];
-  typingSpeed?: number; // ms per character
-  deletingSpeed?: number; // ms per character
-  pauseDuration?: number; // ms to pause after typing a word
+  typingSpeed?: number;
+  deletingSpeed?: number; 
+  pauseDuration?: number; 
 }
 
 const AnimatedWord: React.FC<AnimatedWordProps> = ({
