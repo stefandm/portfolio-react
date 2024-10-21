@@ -127,13 +127,13 @@ const Projects: React.FC = () => {
               className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
-              Kanban - Kanban Board
+              Kanban - CRUD Management Board
             </motion.h2>
             <motion.h3
               className='text-xl text-center font-normal mb-4'
               variants={textVariants}
             >
-              React, Typescript, Firebase
+              React, Typescript, Tailwind, Firebase
             </motion.h3>
             <div className='flex gap-4'>
               <a
@@ -174,7 +174,7 @@ const Projects: React.FC = () => {
               className='text-xl text-center font-normal mb-4'
               variants={textVariants}
             >
-              React, Typescript, Firebase
+              React, Typescript, Tailwind, Firebase
             </motion.h3>
             <div className='flex gap-4'>
               <a
@@ -228,7 +228,7 @@ const Projects: React.FC = () => {
               className='text-xl text-center font-normal mb-4'
               variants={textVariants}
             >
-              React
+              React, Tailwind
             </motion.h3>
             <div className='flex gap-4'>
               <a
