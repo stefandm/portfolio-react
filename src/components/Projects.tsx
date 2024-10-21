@@ -3,6 +3,7 @@ import React from 'react';
 import { motion, Variants } from 'framer-motion';
 import apexMockup from '../assets/sshotApex.jpg';
 import biteMockup from '../assets/sshotBite.jpg';
+import kanbanMockup from '../assets/sshotKanban.jpg'
 
 const Projects: React.FC = () => {
   // Animation variants for the background color
@@ -201,6 +202,54 @@ const Projects: React.FC = () => {
           <img
             className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg  hover:scale-105 transition-transform duration-300  border-2 border-gray-400 '
             src={biteMockup}
+            alt='Bite Project Mockup'
+            loading='lazy'
+          />
+        </motion.div>
+
+                {/* Project 3*/}
+                <motion.div
+          className='flex flex-col-reverse md:flex-row justify-center items-center w-full'
+          variants={projectVariants}
+          initial='initial'
+          whileInView='inView'
+          viewport={{ once: true, amount: 0.5 }}
+        >
+          <motion.div className='flex flex-col items-center w-full md:w-1/2'>
+            <motion.h2
+              className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
+              variants={textVariants}
+            >
+              Kanban - Kanban Board 
+            </motion.h2>
+            <motion.h3
+              className='text-xl text-center font-normal mb-4'
+              variants={textVariants}
+            >
+              React, Typescript, Firebase
+            </motion.h3>
+            <div className='flex gap-4'>
+              <a
+                href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
+                target='_blank'
+                rel='noopener noreferrer'
+                className='px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition-colors duration-300'
+              >
+                GitHub
+              </a>
+              <a
+                href='https://stefandm.github.io/kanban-board/' // Replace with actual live site link
+                target='_blank'
+                rel='noopener noreferrer'
+                className='px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800 transition-colors duration-300'
+              >
+                Live Site
+              </a>
+            </div>
+          </motion.div>
+          <img
+            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg  hover:scale-105 transition-transform duration-300  border-2 border-gray-400 '
+            src={kanbanMockup}
             alt='Bite Project Mockup'
             loading='lazy'
           />
