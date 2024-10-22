@@ -127,7 +127,7 @@ const Projects: React.FC = () => {
               className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
-              Kanban - CRUD Management Board
+              Kanban -  Management Board
             </motion.h2>
             <motion.h3
               className='text-xl text-center font-normal mb-4'
@@ -140,7 +140,7 @@ const Projects: React.FC = () => {
                 href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition-colors duration-300'
+                className='px-4 py-2 bg-white rounded hover:bg-blue-400 hover:text-white transition-colors duration-300'
               >
                 GitHub
               </a>
@@ -181,7 +181,7 @@ const Projects: React.FC = () => {
                 href='https://github.com/stefandm/biteBuddy' // Replace with actual GitHub link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition-colors duration-300'
+                className='px-4 py-2 bg-white rounded hover:bg-blue-400 hover:text-white transition-colors duration-300'
               >
                 GitHub
               </a>
@@ -189,7 +189,7 @@ const Projects: React.FC = () => {
                 href='https://stefandm.github.io/biteBuddy/' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800 transition-colors duration-300'
+                className='px-4 py-2 bg-green-500 text-white rounded hover:bg-green-800 transition-colors duration-300'
               >
                 Live Site
               </a>
@@ -235,7 +235,7 @@ const Projects: React.FC = () => {
                 href='https://github.com/stefandm/apexPulse' // Replace with actual GitHub link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition-colors duration-300'
+                className='px-4 py-2 bg-white rounded hover:bg-blue-400 hover:text-white transition-colors duration-300'
               >
                 GitHub
               </a>
