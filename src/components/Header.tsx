@@ -3,7 +3,7 @@ import {Link} from 'react-scroll'
 
 const Header: React.FC = () => {
   return (
-    <header className="flex justify-between items-center p-5 md:p-10  h-[10vh] sticky top-0 z-10 bg-white ">
+    <header className="flex justify-between items-center p-5 md:p-10  h-[10vh] sticky top-0 z-10 bg-white opacity-95 ">
       <Link to="hero" smooth={true} duration={600} offset={-100} className="text-2xl font-semibold hover:cursor-pointer">
         S.D.
       </Link>

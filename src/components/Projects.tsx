@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
       variants={backgroundVariants}
       initial='initial'
       whileInView='inView'
-      viewport={{ once: true, amount: 0.5 }} // Trigger when 50% of the component is in view
+      viewport={{ once: true, amount: 0.2 }} // Trigger when 20% of the component is in view
     >
       {/* Solid White Background Layer */}
       <motion.div
@@ -203,7 +203,7 @@ const Projects: React.FC = () => {
           />
         </motion.div>
 
-        {/* Project 1 */}
+        {/* Project 3 */}
         <motion.div
           className='flex flex-col md:flex-row justify-center items-center w-full'
           variants={projectVariants}
