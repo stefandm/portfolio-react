@@ -1,20 +1,22 @@
 import './App.css'
-import AboutMeAndSkills from './components/About/AboutMeAndSkills'
+import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
 import DisplayName from './components/DisplayName'
 import Footer from './components/Footer'
-import Header from './components/Header'
+import Nav from './components/Nav'
 import Hero from './components/Hero/Hero'
 import Projects from './components/Projects'
+import Skills from './components/Skills/Skills'
 
 function App() {
 
   return (
     <>
       <DisplayName/>
-      <Header/>
+      <Nav/>
       <Hero/>
-      <AboutMeAndSkills/>
+      <AboutMe/>
+      <Skills/>
       <Projects/>
       <Contact/>
       <Footer/>

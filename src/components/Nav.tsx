@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-scroll'
 
-const Header: React.FC = () => {
+const Nav: React.FC = () => {
   return (
     <header className="flex justify-between items-center p-5 md:p-10  h-[10vh] sticky top-0 z-10 bg-white opacity-95 ">
       <Link to="hero" smooth={true} duration={600} offset={-100} className="text-2xl font-semibold hover:cursor-pointer">
@@ -10,8 +10,13 @@ const Header: React.FC = () => {
       <nav>
         <ul className="flex space-x-3 md:space-x-6 text-sm md:text-base">
           <li>
-          <Link to="aboutme" smooth={true} duration={600} offset={-60} className="hover:cursor-pointer">
-              About me / Skills
+          <Link to="aboutme" smooth={true} duration={600} offset={-30} className="hover:cursor-pointer">
+              About me 
+          </Link>
+          </li>
+          <li>
+          <Link to="skills" smooth={true} duration={600} offset={-30} className="hover:cursor-pointer">
+              Skills
           </Link>
           </li>
           <li>
@@ -20,7 +25,7 @@ const Header: React.FC = () => {
           </Link>
           </li>
           <li>
-          <Link to="contact" smooth={true} duration={600} offset={-50} className="hover:cursor-pointer">
+          <Link to="contact" smooth={true} duration={1200} offset={-120} className="hover:cursor-pointer">
               Contact
           </Link>
           </li>
@@ -30,4 +35,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Nav;

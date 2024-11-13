@@ -80,7 +80,7 @@ const Projects: React.FC = () => {
   return (
     <motion.div
       id='projects'
-      className='min-h-screen flex flex-col justify-center items-center py-6 px-5 md:px-20 relative overflow-hidden antialiased transform-gpu'
+      className='min-h-screen flex flex-col justify-center items-center px-5 md:px-20 relative overflow-hidden antialiased transform-gpu pb-[20vh]'
       variants={backgroundVariants}
       initial='initial'
       whileInView='inView'
@@ -117,7 +117,7 @@ const Projects: React.FC = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <img
-            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 border-2 border-gray-400 '
+            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg border-2 border-gray-400 '
             src={kanbanMockup}
             alt='Apex Project Mockup'
             loading='lazy'
@@ -127,30 +127,30 @@ const Projects: React.FC = () => {
               className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
-              Kanban -  Management Board
+              Kanban -  CRUD Task Board
             </motion.h2>
             <motion.h3
               className='text-xl text-center font-normal mb-4'
               variants={textVariants}
             >
-              React, Typescript, Tailwind, Firebase
+              React | JavaScript - TypeScript | Tailwind | Firebase
             </motion.h3>
             <div className='flex gap-4'>
-              <a
-                href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
-                target='_blank'
-                rel='noopener noreferrer'
-                className='px-4 py-2 bg-white rounded hover:bg-blue-400 hover:text-white transition-colors duration-300'
-              >
-                GitHub
-              </a>
               <a
                 href='https://stefandm.github.io/kanban-board/' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800 transition-colors duration-300'
+                className='px-4 py-2  text-white font-medium rounded border-2 border-blue-300 hover:bg-blue-400 transition-colors duration-300'
               >
                 Live Site
+              </a>
+              <a
+                href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
+                target='_blank'
+                rel='noopener noreferrer'
+                className='px-4 py-2  rounded  hover:bg-slate-500 text-white transition-colors duration-300'
+              >
+                GitHub
               </a>
             </div>
           </motion.div>
@@ -174,29 +174,29 @@ const Projects: React.FC = () => {
               className='text-xl text-center font-normal mb-4'
               variants={textVariants}
             >
-              React, Typescript, Tailwind, Firebase
+              React | JavaScript - TypeScript | Tailwind | Firebase
             </motion.h3>
             <div className='flex gap-4'>
               <a
-                href='https://github.com/stefandm/biteBuddy' // Replace with actual GitHub link
+                href='https://stefandm.github.io/kanban-board/' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-white rounded hover:bg-blue-400 hover:text-white transition-colors duration-300'
-              >
-                GitHub
-              </a>
-              <a
-                href='https://stefandm.github.io/biteBuddy/' // Replace with actual live site link
-                target='_blank'
-                rel='noopener noreferrer'
-                className='px-4 py-2 bg-green-500 text-white rounded hover:bg-green-800 transition-colors duration-300'
+                className='px-4 py-2  text-white font-medium rounded border-2 border-blue-300 hover:bg-blue-400 transition-colors duration-300'
               >
                 Live Site
+              </a>
+              <a
+                href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
+                target='_blank'
+                rel='noopener noreferrer'
+                className='px-4 py-2  rounded  hover:bg-slate-500 text-white transition-colors duration-300'
+              >
+                GitHub
               </a>
             </div>
           </motion.div>
           <img
-            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg  hover:scale-105 transition-transform duration-300  border-2 border-gray-400 '
+            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg border-2 border-gray-400 '
             src={biteMockup}
             alt='Bite Project Mockup'
             loading='lazy'
@@ -212,7 +212,7 @@ const Projects: React.FC = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <img
-            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 border-2 border-gray-400 '
+            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg border-2 border-gray-400 '
             src={apexMockup}
             alt='Apex Project Mockup'
             loading='lazy'
@@ -222,30 +222,30 @@ const Projects: React.FC = () => {
               className='text-2xl text-center font-semibold mb-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
               variants={textVariants}
             >
-              Apex Pulse - Boxing Gym
+              Apex Pulse -  Landing page
             </motion.h2>
             <motion.h3
               className='text-xl text-center font-normal mb-4'
               variants={textVariants}
             >
-              React, Tailwind
+              React | Tailwind
             </motion.h3>
             <div className='flex gap-4'>
               <a
-                href='https://github.com/stefandm/apexPulse' // Replace with actual GitHub link
+                href='https://stefandm.github.io/kanban-board/' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2 bg-white rounded hover:bg-blue-400 hover:text-white transition-colors duration-300'
-              >
-                GitHub
-              </a>
-              <a
-                href='https://stefandm.github.io/apexPulse/' // Replace with actual live site link
-                target='_blank'
-                rel='noopener noreferrer'
-                className='px-4 py-2 bg-green-700 text-white rounded hover:bg-green-800 transition-colors duration-300'
+                className='px-4 py-2  text-white font-medium rounded border-2 border-blue-300 hover:bg-blue-400 transition-colors duration-300'
               >
                 Live Site
+              </a>
+              <a
+                href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
+                target='_blank'
+                rel='noopener noreferrer'
+                className='px-4 py-2  rounded  hover:bg-slate-500 text-white transition-colors duration-300'
+              >
+                GitHub
               </a>
             </div>
           </motion.div>
