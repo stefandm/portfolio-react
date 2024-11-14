@@ -39,28 +39,28 @@ const Contact: React.FC = () => {
       id="contact"
       className="flex flex-col items-center justify-center min-h-[90vh] bg-gradient-to-b from-slate-700 to-slate-200 overflow-x-hidden"
     >
-      <h1 className="text-6xl  md:text-7xl font-semibold mb-[20vh] text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+      <h1 className="text-6xl text-center md:text-7xl font-semibold mb-[20vh] text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
         Let's work together!
       </h1>
       <div className="flex flex-col items-center gap-16">
         <motion.div
-          className="text-6xl  text-white"
+          // className=""
           variants={slideVariants}
           initial="hidden"
           animate={isVisible ? 'visible' : 'hidden'}
           transition={{ duration: 2, ease: 'easeInOut' }}
         >
-          <p className=' drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>+49 176 35569006</p>
+          <p className='text-3xl md:text-6xl text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>+49 176 35569006</p>
         </motion.div>
 
         <motion.div
-          className="text-6xl  text-white"
+          // className=" "
           variants={slideRightVariants}
           initial="hidden"
           animate={isVisible ? 'visible' : 'hidden'}  
           transition={{ duration: 2, ease: 'easeInOut' }}
         >
-          <p className=' drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>demirel.stefan@yahoo.com</p>
+          <p className='text-2xl md:text-6xl  text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>demirel.stefan@yahoo.com</p>
         </motion.div>
       </div>
     </div>

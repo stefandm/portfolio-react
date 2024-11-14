@@ -29,7 +29,7 @@ const AboutMe: React.FC = () => {
       };
 
   return (
-    <div id='aboutme' className='flex xl:h-screen flex-col md:flex-row overflow-hidden my-[10vh] '>
+    <div id='aboutme' className='flex xl:h-screen flex-col md:flex-row overflow-hidden mb-[20vh] mt-[10vh] '>
       {/* Animated Text Section */}
       <motion.div
         className='flex flex-col justify-evenly items-center px-[10vw] md:w-[60vw] flex-shrink-0 antialiased transform-gpu'
@@ -55,7 +55,7 @@ const AboutMe: React.FC = () => {
 
       {/* Animated Image Section */}
       <motion.img
-        className='object-fit  w-[40vw] h-[80vh] my-auto flex-shrink-0 transform-gpu hidden md:block pr-[5vw]'
+        className='object-fit md:w-[40vw] md:h-[35vh] lg:w-[40vw] lg:h-[80vh] my-auto flex-shrink-0 transform-gpu hidden md:block pr-[5vw]'
         src={selfTaught}
         alt='online class'
         variants={imageVariants}
