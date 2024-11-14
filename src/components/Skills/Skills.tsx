@@ -7,14 +7,14 @@ import SkillItem from './SkillItem';
 
 const Skills = () => {
   return (
-    <div id="skills" className='mt-[20vh]  min-h-[90vh]'>
-        <h1 className='text-6xl  md:text-7xl font-semibold text-center mb-[10vh]'>
+    <div id="skills" className='mt-[10vh] mb-[20vh] '>
+        <h1 className='text-6xl  md:text-7xl font-semibold text-center mb-[15vh]'>
           Skills
         </h1>
         <div className='flex flex-col md:flex-row px-[10vw]'>
           <div className=' md:w-1/2 flex justify-center items-center'>
-            <p className=' text-lg xl:text-2xl px-[5vw] text-center md:text-left '>
-            Through practical experience, I’ve developed these skills, which have been essential in building real-world projects and delivering effective solutions
+            <p className=' text-lg xl:text-2xl px-[5vw] text-center font-semibold'>
+            Through practical experience, I’ve developed the following skills, which have been essential in building real-world projects and delivering effective solutions
             </p>
           </div>
           <div className='flex flex-wrap gap-6 justify-around items-center md:w-1/2'>

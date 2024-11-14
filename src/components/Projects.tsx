@@ -80,7 +80,7 @@ const Projects: React.FC = () => {
   return (
     <motion.div
       id='projects'
-      className='min-h-screen flex flex-col justify-center items-center px-5 md:px-[10vh] relative overflow-hidden antialiased transform-gpu pb-[20vh]'
+      className='min-h-screen flex flex-col justify-center items-center px-5 md:px-[10vh] relative overflow-hidden antialiased transform-gpu '
       variants={backgroundVariants}
       initial='initial'
       whileInView='inView'

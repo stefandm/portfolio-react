@@ -15,7 +15,7 @@ const Nav: React.FC = () => {
           </Link>
           </li>
           <li>
-          <Link to="skills" smooth={true} duration={600} offset={-90} className="hover:cursor-pointer">
+          <Link to="skills" smooth={true} duration={600} offset={-150} className="hover:cursor-pointer">
               Skills
           </Link>
           </li>
@@ -25,7 +25,7 @@ const Nav: React.FC = () => {
           </Link>
           </li>
           <li>
-          <Link to="contact" smooth={true} duration={1200} offset={-120} className="hover:cursor-pointer">
+          <Link to="contact" smooth={true} duration={1200} offset={-10} className="hover:cursor-pointer">
               Contact
           </Link>
           </li>
