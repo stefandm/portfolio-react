@@ -8,11 +8,11 @@ import debugging from '../../assets/debugging.jpg';
 const Skills = () => {
   return (
     <>
-    <h1 className='text-6xl md:text-7xl font-semibold text-center pt-[10vh] mb-[5vh]'>
+    <h1 className='text-6xl md:text-7xl font-semibold text-center pt-[10vh] mb-10'>
       Skills
     </h1>
     <div id="skills" className='mb-[10vh]'>
-      <div className='flex flex-col md:flex-row mx-[10vw] gap-10'>
+      <div className='flex flex-col md:flex-row mx-[10vw] gap-28'>
         <div className='md:w-1/2 flex flex-col items-center justify-center '>
           <img
             src={debugging}

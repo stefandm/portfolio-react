@@ -140,7 +140,7 @@ const Projects: React.FC = () => {
                 href='https://stefandm.github.io/kanban-board/' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2  text-white font-medium rounded border-2 border-blue-300 hover:bg-blue-400 transition-colors duration-300'
+                className='px-4 py-2  text-white font-medium rounded border-2 border-white hover:bg-white hover:text-black transition-colors duration-300'
               >
                 Live Site
               </a>
@@ -181,7 +181,7 @@ const Projects: React.FC = () => {
                 href='https://stefandm.github.io/biteBuddy//' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2  text-white font-medium rounded border-2 border-blue-300 hover:bg-blue-400 transition-colors duration-300'
+                className='px-4 py-2  text-white font-medium rounded border-2  border-white hover:bg-white hover:text-black transition-colors duration-300'
               >
                 Live Site
               </a>
@@ -235,7 +235,7 @@ const Projects: React.FC = () => {
                 href='https://stefandm.github.io/apexPulse/'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2  text-white font-medium rounded border-2 border-blue-300 hover:bg-blue-400 transition-colors duration-300'
+                className='px-4 py-2  text-white font-medium rounded border-2  border-white hover:bg-white hover:text-black transition-colors duration-300'
               >
                 Live Site
               </a>
