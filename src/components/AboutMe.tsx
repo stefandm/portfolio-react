@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, useReducedMotion, Variants } from 'framer-motion';
-import selfTaught from '../assets/selfTaught.jpg';
+import selfTaught from '../assets/selfTaught_1.jpg';
 import { PiLightbulbLight } from "react-icons/pi";
 import { PiPuzzlePieceLight } from "react-icons/pi";
 
@@ -31,14 +31,14 @@ const imageVariants: Variants = shouldReduceMotion
 
   return (
     <>
-     <h1 className='text-6xl text-center md:text-7xl font-semibold md:pt-[10vh] mb-[5vh]'>
+     <h1 className='text-6xl text-center md:text-7xl font-semibold md:pt-24 my-12 xl:my-0'>
        About Me
     </h1>
-    <div id='aboutme' className='flex xl:h-auto flex-col md:flex-row overflow-hidden mb-[10vh] '>
+    <div id='aboutme' className='flex  flex-col gap-16 md:flex-row overflow-hidden mb-12 px-12 lg:px-36'>
 
       {/* Animated Text Section */}
       <motion.div
-        className='flex flex-col justify-evenly items-center pl-[10vw] pr-[5vw] md:w-[55vw] flex-shrink-0 antialiased transform-gpu'
+        className='flex flex-col justify-center md:gap-12 items-center md:w-1/2  font-medium'
         variants={textVariants}
         initial='hidden'
         whileInView='visible'
@@ -58,7 +58,7 @@ const imageVariants: Variants = shouldReduceMotion
 
       {/* Animated Image Section */}
       <motion.img
-        className='object-contain md:w-[50vw] md:h-[60vh] lg:w-[45vw] lg:h-[70vh] my-auto flex-shrink-0 hidden md:block pr-[10vw]'
+        className='object-cover md:w-1/2 my-auto  hidden md:block'
         src={selfTaught}
         alt='online class'
         variants={imageVariants}

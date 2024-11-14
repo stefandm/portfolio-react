@@ -130,7 +130,7 @@ const Projects: React.FC = () => {
               Kanban -  CRUD Task Board
             </motion.h2>
             <motion.h3
-              className='text-xl text-center font-normal mb-4'
+              className='text-md text-center font-normal mb-4'
               variants={textVariants}
             >
               React | JavaScript - TypeScript | Tailwind | Firebase
@@ -171,7 +171,7 @@ const Projects: React.FC = () => {
               Bite Buddy - Recipe Api
             </motion.h2>
             <motion.h3
-              className='text-xl text-center font-normal mb-4'
+              className='text-md text-center font-normal mb-4'
               variants={textVariants}
             >
               React | JavaScript - TypeScript | Tailwind | Firebase
@@ -225,7 +225,7 @@ const Projects: React.FC = () => {
               Apex Pulse -  Landing page
             </motion.h2>
             <motion.h3
-              className='text-xl text-center font-normal mb-4'
+              className='text-md text-center font-normal mb-4'
               variants={textVariants}
             >
               React | Tailwind

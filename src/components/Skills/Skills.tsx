@@ -8,23 +8,23 @@ import debugging from '../../assets/debugging.jpg';
 const Skills = () => {
   return (
     <>
-    <h1 className='text-6xl md:text-7xl font-semibold text-center pt-[10vh] mb-10'>
+    <h1 className='text-6xl md:text-7xl font-semibold text-center py-22 mt-28 lg:mt-0 py-12 xl:py-0'>
       Skills
     </h1>
-    <div id="skills" className='mb-[10vh]'>
-      <div className='flex flex-col md:flex-row mx-[10vw] gap-28'>
+    <div id="skills" className='mb-20 px-12 xl:px-36'>
+      <div className='flex flex-col md:flex-row lg:gap-16 xl:gap-28'>
         <div className='md:w-1/2 flex flex-col items-center justify-center '>
           <img
             src={debugging}
             alt="Debugging"
-            className='w-auto md:w-[40vw] h-auto'
+            className='w-auto md:w-auto h-auto hidden md:block'
           />
         </div>
-        <div className=' md:w-1/2 my-auto '>
-          <p className='text-lg  text-center mb-[5vh]'>
+        <div className=' md:w-1/2 my-auto flex flex-col justify-center items-center'>
+          <p className='text-lg font-medium text-center mb-12'>
             Through practical experience, I’ve developed the following skills, which have been essential in building real-world projects and delivering effective solutions.
           </p>
-          <div className='flex flex-wrap justify-around gap-12 items-center'>
+          <div className='flex flex-wrap justify-center gap-12 items-center md:w-3/4'>
             <SkillItem Icon={FaHtml5} label='HTML' color='text-orange-800' />
             <SkillItem Icon={FaCss3Alt} label='CSS' color='text-blue-900' />
             <SkillItem Icon={IoLogoJavascript} label='JavaScript' color='text-yellow-700' />

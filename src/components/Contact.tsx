@@ -76,14 +76,14 @@ const Contact: React.FC = () => {
           animate={isVisible ? 'visible' : 'hidden'}
           transition={{ duration: 1.5, ease: 'easeInOut' }}
         >
-          <button
-            type="button"
-            className="text-3xl md:text-6xl font-medium text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] cursor-pointer focus:outline-none"
-            onClick={() => copyToClipboard('+49 176 35569006')}
-            aria-label="Copy phone number to clipboard"
-          >
-            +49 176 35569006
-          </button>
+        <button
+          type="button"
+          className="text-2xl sm:text-4xl md:text-5xl xl:text-6xl font-medium text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] cursor-pointer focus:outline-none"
+          onClick={() => copyToClipboard('demirel.stefan@yahoo.com')}
+          aria-label="Copy email address to clipboard"
+        >
+          demirel.stefan@yahoo.com
+        </button>
         </motion.div>
 
         <motion.div
@@ -92,14 +92,14 @@ const Contact: React.FC = () => {
           animate={isVisible ? 'visible' : 'hidden'}
           transition={{ duration: 1.5, ease: 'easeInOut' }}
         >
-          <button
-            type="button"
-            className="text-2xl md:text-6xl font-medium text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] cursor-pointer focus:outline-none"
-            onClick={() => copyToClipboard('demirel.stefan@yahoo.com')}
-            aria-label="Copy email address to clipboard"
-          >
-            demirel.stefan@yahoo.com
-          </button>
+        <button
+          type="button"
+          className="text-2xl sm:text-4xl md:text-5xl xl:text-6xl font-medium text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] cursor-pointer focus:outline-none"
+          onClick={() => copyToClipboard('+49 176 35569006')}
+          aria-label="Copy phone number to clipboard"
+        >
+          +49 176 35569006
+        </button>
         </motion.div>
       </div>
 
