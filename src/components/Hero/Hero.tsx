@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   const dynamicWords = ['Developer', 'Designer'];
 
   return (
-    <section className="flex flex-col min-h-[70vh] xl:h-[90vh] justify-between  overflow-auto mb-[10vh] " id='hero'>
+    <section className="flex flex-col min-h-[70vh] xl:h-[90vh] justify-between  overflow-auto mb-[15vh] " id='hero'>
       {/* Main Heading */}
       <div className="flex  justify-start ml-[10vw] mt-[5vh]">
         <h1 className="text-7xl md:text-9xl font-semibold ">Stefan Demirel</h1>
@@ -27,10 +27,10 @@ const Hero: React.FC = () => {
           Web&nbsp;
           <AnimatedWord words={dynamicWords} />
         </h2>
-        <p className="mt-4 text-lg xl:text-xl text-gray-700 font-medium">
+        <p className="mt-4 text-lg ">
         Front-End Developer dedicated to crafting responsive and user-friendly web experiences through elegant problem-solving and continuous learning. Let's collaborate to bring your digital vision to life and create something amazing together!        </p>
         <div className='mt-6'>
-        <Link to="contact" smooth={true} duration={600} offset={-50} className="hover:cursor-pointer h-[5vh] w-[10vw] font-medium border-[1px] border-black hover:bg-blue-900 hover:text-white rounded-md py-3 px-6 text-lg">
+        <Link to="contact" smooth={true} duration={1200} offset={-120} className="hover:cursor-pointer h-[5vh] w-[10vw] font-medium border-[1px] border-black hover:bg-blue-900 hover:text-white rounded-md py-3 px-6 text-lg">
         Get in Touch
           </Link>
         </div>

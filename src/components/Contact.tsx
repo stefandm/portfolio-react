@@ -67,22 +67,23 @@ const Contact: React.FC = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col items-center justify-center min-h-[50vh] bg-gradient-to-b from-slate-700 to-slate-200 px-4 pb-[10vh]"
+      className="flex flex-col items-center justify-center min-h-[80vh] bg-gradient-to-b from-slate-700 to-slate-200 px-4 py-[10vh]"
     >
-      <h1 className='text-6xl text-center md:text-7xl font-semibold text-white mb-[9vh] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>Contact</h1>
+      <h1 className='text-6xl text-center md:text-7xl font-semibold text-white mb-[9vh] drop-shadow-[0_3.3px_3.2px_rgba(0,0,0,0.8)]'>
+        Contact
+      </h1>
       <div className='flex flex-col md:flex-row  mx-[5vw] gap-[5vw]'>
         <div className='text-white flex flex-col justify-center items-center'>
           <h2 className="text-4xl md:text-5xl font-semibold mb-8 text-white drop-shadow-[0_3.3px_3.2px_rgba(0,0,0,0.8)]">
             I'd love to hear from you!
           </h2>
-            <p className='text-xl  text-center text-wrap drop-shadow-[0_3.3px_3.2px_rgba(0,0,0,0.8)]'>Contact me through this form, I am interested in hearing from you,
-            knowing your ideas and contributing to your projects with my work.
-            Need a Frontend developer? Contact me!
+            <p className='text-xl  text-center text-wrap drop-shadow-[0_3.3px_3.2px_rgba(0,0,0,0.8)]'>
+            Feel free to reach out through this form. I'm eager to learn about your ideas and contribute to your projects with my skills. Need a Front-End Developer? Contact me!
             </p>
         </div>
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col min-w-[45vw]  p-6 rounded-lg shadow-sm"
+          className="flex flex-col min-w-[45vw]  p-6 "
         >
           <label className="mb-4">
             <input
