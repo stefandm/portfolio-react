@@ -5,7 +5,7 @@ const Footer = () => {
   const linkedinLink = 'https://www.linkedin.com/in/stefan-demirel-730b9124b/'; 
 
   return (
-    <footer className="w-full bg-slate-900 py-6">
+    <footer className="w-full bg-gray-900 py-6">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         {/* Left Side*/}
         <div className="mb-4 md:mb-0">

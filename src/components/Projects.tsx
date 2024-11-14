@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
       },
     },
     inView: {
-      backgroundColor: '#334155', 
+      backgroundColor: '#111827', 
       transition: {
         duration: 1,
         ease: 'easeInOut',
@@ -80,7 +80,7 @@ const Projects: React.FC = () => {
   return (
     <motion.div
       id='projects'
-      className='min-h-screen flex flex-col justify-center items-center px-5 md:px-[10vh] relative overflow-hidden antialiased transform-gpu '
+      className='min-h-screen flex flex-col justify-center items-center px-[10vw] md:px-[10vh] relative overflow-hidden antialiased transform-gpu '
       variants={backgroundVariants}
       initial='initial'
       whileInView='inView'
@@ -148,7 +148,7 @@ const Projects: React.FC = () => {
                 href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2  rounded  hover:bg-slate-500 text-white transition-colors duration-300'
+                className='px-4 py-2  rounded border-2 border-slate-500  hover:bg-slate-500 text-white transition-colors duration-300'
               >
                 GitHub
               </a>
@@ -189,7 +189,7 @@ const Projects: React.FC = () => {
                 href='https://github.com/stefandm/biteBuddy/' // Replace with actual GitHub link
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2  rounded  hover:bg-slate-500 text-white transition-colors duration-300'
+                className='px-4 py-2  rounded  border-2 border-slate-500  hover:bg-slate-500 text-white transition-colors duration-300'
               >
                 GitHub
               </a>
@@ -243,7 +243,7 @@ const Projects: React.FC = () => {
                 href='https://github.com/stefandm/apexPulse'
                 target='_blank'
                 rel='noopener noreferrer'
-                className='px-4 py-2  rounded  hover:bg-slate-500 text-white transition-colors duration-300'
+                className='px-4 py-2  rounded  border-2 border-slate-500  hover:bg-slate-500 text-white transition-colors duration-300'
               >
                 GitHub
               </a>
