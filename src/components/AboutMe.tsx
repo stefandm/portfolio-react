@@ -45,7 +45,7 @@ const AboutMe: React.FC = () => {
           </h1>
         <p className='text-lg mt-6 md:mt-0 '>
           <PiLightbulbLight className='ml-[-2vw] h-[6vh] w-[6vw] '/>
-          I’m a self-taught Front-End Developer, driven by curiosity and a passion for creating websites. What began as a hobby has evolved into a commitment to mastering web development through hands-on projects and continuous learning.
+          I’m a self-taught Front-End Developer driven by curiosity and a passion for creating websites. What began as a hobby has evolved into a commitment to mastering web development through hands-on projects and continuous learning.
         </p>
         <p className='text-lg mt-6 md:mt-0'>
           <PiPuzzlePieceLight className='ml-[-2vw] h-[6vh] w-[6vw]'/>

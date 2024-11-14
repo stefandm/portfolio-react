@@ -178,7 +178,7 @@ const Projects: React.FC = () => {
             </motion.h3>
             <div className='flex gap-4'>
               <a
-                href='https://stefandm.github.io/kanban-board/' // Replace with actual live site link
+                href='https://stefandm.github.io/biteBuddy//' // Replace with actual live site link
                 target='_blank'
                 rel='noopener noreferrer'
                 className='px-4 py-2  text-white font-medium rounded border-2 border-blue-300 hover:bg-blue-400 transition-colors duration-300'
@@ -186,7 +186,7 @@ const Projects: React.FC = () => {
                 Live Site
               </a>
               <a
-                href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
+                href='https://github.com/stefandm/biteBuddy/' // Replace with actual GitHub link
                 target='_blank'
                 rel='noopener noreferrer'
                 className='px-4 py-2  rounded  hover:bg-slate-500 text-white transition-colors duration-300'
@@ -232,7 +232,7 @@ const Projects: React.FC = () => {
             </motion.h3>
             <div className='flex gap-4'>
               <a
-                href='https://stefandm.github.io/kanban-board/' // Replace with actual live site link
+                href='https://stefandm.github.io/apexPulse/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='px-4 py-2  text-white font-medium rounded border-2 border-blue-300 hover:bg-blue-400 transition-colors duration-300'
@@ -240,7 +240,7 @@ const Projects: React.FC = () => {
                 Live Site
               </a>
               <a
-                href='https://github.com/stefandm/kanban-board' // Replace with actual GitHub link
+                href='https://github.com/stefandm/apexPulse'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='px-4 py-2  rounded  hover:bg-slate-500 text-white transition-colors duration-300'
