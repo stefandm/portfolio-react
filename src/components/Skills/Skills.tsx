@@ -3,7 +3,7 @@ import { TbApi } from 'react-icons/tb';
 import { BiLogoTypescript } from 'react-icons/bi';
 import { IoLogoFirebase, IoLogoJavascript } from 'react-icons/io5';
 import SkillItem from './SkillItem';
-import debugging from '../../assets/debugging.jpg';
+import debugging from '../../assets/debugging_1.jpg';
 import { motion } from 'framer-motion';
 
 const Skills = () => {
