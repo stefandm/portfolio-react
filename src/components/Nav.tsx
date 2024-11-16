@@ -20,7 +20,7 @@ const Nav: React.FC = () => {
           </Link>
           </li>
           <li>
-          <Link to="projects" smooth={true} duration={300} offset={20} className="hover:cursor-pointer">
+          <Link to="projects" smooth={true} duration={300} offset={-50} className="hover:cursor-pointer">
               Projects
           </Link>
           </li>

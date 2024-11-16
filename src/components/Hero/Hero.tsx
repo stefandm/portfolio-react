@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
         alt='profile picture'
       />
       {/* Animated Title and Description */}
-      <div className="self-center  md:self-end w-[65vw] md:w-[50vw] mt-8 md:mr-[5vw] mb-[15vh] ">
+      <div className="self-center  md:self-end w-[75vw] md:w-[50vw] mt-8 md:mr-[5vw] mb-[15vh] ">
         <h2 className="text-4xl sm:text-5xl xl:text-7xl font-semibold flex justify-start mx-[-20px] items-center">
           Web&nbsp;
           <AnimatedWord words={dynamicWords} />
