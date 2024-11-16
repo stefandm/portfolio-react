@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="flex flex-col min-h-[70vh] xl:h-[90vh] justify-between  overflow-auto mb-[5vh] md:mb-[15vh] " id='hero'>
-      {/* Main Heading */}
+      
       <div className="flex  justify-start ml-[10vw] mt-[5vh]">
         <h1 className="text-7xl md:text-9xl font-semibold ">Stefan Demirel</h1>
       </div>
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         src={profile}
         alt='profile picture'
       />
-      {/* Animated Title and Description */}
+      
       <div className="self-center  md:self-end w-[75vw] md:w-[50vw] mt-8 md:mr-[5vw] mb-[15vh] ">
         <h2 className="text-4xl sm:text-5xl xl:text-7xl font-semibold flex justify-start mx-[-20px] items-center">
           Web&nbsp;

@@ -16,7 +16,7 @@ const Skills = () => {
       <div className="px-12 xl:px-36">
         <div className="flex flex-col md:flex-row lg:gap-16 xl:gap-28">
           <div className="md:w-1/2 flex flex-col items-center justify-center">
-            {/* Image Section with Animated Slide-In */}
+          
         <motion.div
           initial={{ x: -200, opacity: 0 }} 
           whileInView={{ x: 0, opacity: 1 }} 
