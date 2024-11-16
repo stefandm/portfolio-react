@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { motion, Variants } from 'framer-motion';
-import apexMockup from '../assets/sshotApex.jpg';
-import biteMockup from '../assets/sshotBite.jpg';
-import kanbanMockup from '../assets/sshotKanban.jpg'
+import apexMockup from '../assets/laptop_apex.png';
+import biteMockup from '../assets/laptop_bite.png';
+import kanbanMockup from '../assets/laptop_kanban.png'
 
 const Projects: React.FC = () => {
   const backgroundVariants: Variants = {
@@ -117,9 +117,9 @@ const Projects: React.FC = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <img
-            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg border-2 border-gray-400 '
+            className='mb-10 object-cover w-full md:w-[35vw]'
             src={kanbanMockup}
-            alt='Apex Project Mockup'
+            alt='Kanban Project Mockup'
             loading='lazy'
           />
           <motion.div className='flex flex-col items-center w-full md:w-1/2'>
@@ -196,7 +196,7 @@ const Projects: React.FC = () => {
             </div>
           </motion.div>
           <img
-            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg border-2 border-gray-400 '
+            className='mb-10 object-cover w-full md:w-[35vw]'
             src={biteMockup}
             alt='Bite Project Mockup'
             loading='lazy'
@@ -212,7 +212,7 @@ const Projects: React.FC = () => {
           viewport={{ once: true, amount: 0.5 }}
         >
           <img
-            className='mb-10 object-cover w-full md:w-[35vw] rounded-lg shadow-lg border-2 border-gray-400 '
+            className='mb-10 object-cover w-full md:w-[35vw] '
             src={apexMockup}
             alt='Apex Project Mockup'
             loading='lazy'
