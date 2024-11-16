@@ -9,7 +9,7 @@ const AboutMe: React.FC = () => {
     <>
       <h1
         id="aboutme"
-        className="text-6xl text-center md:text-7xl font-semibold md:mt-24 pb-12 xl:my-0"
+        className="text-6xl text-center md:text-7xl font-semibold md:mt-24 pb-4 md:pb-12 xl:my-0"
         style={{
           textRendering: 'optimizeLegibility',
           WebkitFontSmoothing: 'antialiased',
@@ -18,7 +18,7 @@ const AboutMe: React.FC = () => {
       >
         About Me
       </h1>
-      <div className="flex flex-col-reverse md:flex-row gap-24 overflow-hidden mb-24 px-12 lg:px-36">
+      <div className="flex flex-col-reverse md:flex-row md:gap-24 overflow-hidden mb-24 px-12 lg:px-36">
         {/* Static Text Section */}
         <div className="flex flex-col justify-center md:gap-12 items-center md:w-1/2">
           <p

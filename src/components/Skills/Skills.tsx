@@ -10,7 +10,7 @@ const Skills = () => {
 
   return (
     <>
-      <h1 id="skills" className="text-6xl md:text-7xl font-semibold text-center mt-28 pb-12">
+      <h1 id="skills" className="text-6xl md:text-7xl font-semibold text-center mt-28 pb-6 md:pb-12">
         Skills
       </h1>
       <div className="px-12 xl:px-36">
@@ -36,7 +36,7 @@ const Skills = () => {
           </div>
 
           <div className="md:w-1/2 my-auto flex flex-col justify-center items-center">
-            <p className="text-lg text-center mb-12">
+            <p className="text-lg text-center  md:mt-0 mb-12">
               Through practical experience, I’ve developed the following skills, which have been essential in building real-world projects and delivering effective solutions.
             </p>
             <div className="flex flex-wrap justify-center gap-12 items-center md:w-3/4">

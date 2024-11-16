@@ -13,7 +13,9 @@ const Hero: React.FC = () => {
     <section className="flex flex-col min-h-[70vh] xl:h-[90vh] justify-between  overflow-auto mb-[5vh] md:mb-[15vh] " id='hero'>
       
       <div className="flex  justify-start ml-[10vw] mt-[5vh]">
-        <h1 className="text-7xl md:text-9xl font-semibold ">Stefan Demirel</h1>
+        <h1 className="text-7xl md:text-8xl xl:text-9xl font-semibold ">
+          Stefan Demirel
+        </h1>
       </div>
       <div className='flex flex-col md:flex-row justify-between mb-[1vh] overflow-hidden '>
       <img
