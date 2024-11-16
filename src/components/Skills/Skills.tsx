@@ -29,7 +29,7 @@ const Skills = () => {
               <img
                 src={debugging}
                 alt="Debugging"
-                className="w-auto md:w-auto max-h-[70vh] hidden md:block"
+                className="w-auto md:w-auto max-h-[70vh]"
                 loading="lazy"
               />
             </motion.div>
