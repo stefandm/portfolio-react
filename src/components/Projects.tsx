@@ -80,7 +80,7 @@ const Projects: React.FC = () => {
   return (
     <motion.div
       id='projects'
-      className='min-h-screen flex flex-col justify-center items-center px-[10vw] md:px-[10vh] relative overflow-hidden antialiased transform-gpu '
+      className='min-h-screen flex flex-col justify-center items-center relative overflow-hidden antialiased transform-gpu '
       variants={backgroundVariants}
       initial='initial'
       whileInView='inView'
@@ -100,7 +100,7 @@ const Projects: React.FC = () => {
 
       {/* Main Heading */}
       <motion.h1
-        className='text-6xl md:text-7xl font-semibold mt-[15vh] mb-[15vh] z-20 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
+        className='text-6xl md:text-7xl font-semibold my-24 z-20 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'
         variants={textVariants}
       >
         Projects
@@ -130,7 +130,7 @@ const Projects: React.FC = () => {
               Kanban -  CRUD Task Board
             </motion.h2>
             <motion.h3
-              className='text-md text-center font-normal mb-4'
+              className=' text-center mb-4'
               variants={textVariants}
             >
               React | JavaScript - TypeScript | Tailwind | Firebase
@@ -171,7 +171,7 @@ const Projects: React.FC = () => {
               Bite Buddy - Recipe Api
             </motion.h2>
             <motion.h3
-              className='text-md text-center font-normal mb-4'
+              className='text-center mb-4'
               variants={textVariants}
             >
               React | JavaScript - TypeScript | Tailwind | Firebase
@@ -225,7 +225,7 @@ const Projects: React.FC = () => {
               Apex Pulse -  Landing page
             </motion.h2>
             <motion.h3
-              className='text-md text-center font-normal mb-4'
+              className='text-center mb-4'
               variants={textVariants}
             >
               React | Tailwind

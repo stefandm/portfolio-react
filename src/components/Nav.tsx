@@ -10,12 +10,12 @@ const Nav: React.FC = () => {
       <nav>
         <ul className="flex space-x-3 md:space-x-6 text-sm md:text-base">
           <li>
-          <Link to="aboutme" smooth={true} duration={300} offset={-170} className="hover:cursor-pointer">
+          <Link to="aboutme" smooth={true} duration={300} offset={-130} className="hover:cursor-pointer">
               About me 
           </Link>
           </li>
           <li>
-          <Link to="skills" smooth={true} duration={300} offset={-170} className="hover:cursor-pointer">
+          <Link to="skills" smooth={true} duration={300} offset={-120} className="hover:cursor-pointer">
               Skills
           </Link>
           </li>

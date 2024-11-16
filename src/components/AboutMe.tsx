@@ -31,14 +31,14 @@ const imageVariants: Variants = shouldReduceMotion
 
   return (
     <>
-     <h1 className='text-6xl text-center md:text-7xl font-semibold md:pt-24 my-12 xl:my-0'>
+     <h1 id='aboutme'  className='text-6xl text-center md:text-7xl font-semibold md:mt-24 pb-12 xl:my-0'>
        About Me
     </h1>
-    <div id='aboutme' className='flex  flex-col gap-16 md:flex-row overflow-hidden mb-12 px-12 lg:px-36'>
+    <div className='flex  flex-col-reverse  md:flex-row gap-24 overflow-hidden mb-24 px-12 lg:px-36'>
 
       {/* Animated Text Section */}
       <motion.div
-        className='flex flex-col justify-center md:gap-12 items-center md:w-1/2  font-medium'
+        className='flex flex-col justify-center md:gap-12 items-center md:w-1/2 '
         variants={textVariants}
         initial='hidden'
         whileInView='visible'
@@ -46,7 +46,7 @@ const imageVariants: Variants = shouldReduceMotion
         transition={{ duration: 1.2, ease: 'easeInOut' }}
         style={{ willChange: 'transform' }}
       >
-        <p className='text-lg mt-6 md:mt-0 '>
+        <p className='text-lg md:mt-0 '>
           <PiLightbulbLight className='md:ml-[-1.5vw] h-[5vh] w-[5vw] md:mb-2'/>
           I’m a self-taught Front-End Developer driven by curiosity and a passion for creating websites. What began as a hobby has evolved into a commitment to mastering web development through hands-on projects and continuous learning.
         </p>
@@ -58,7 +58,7 @@ const imageVariants: Variants = shouldReduceMotion
 
       {/* Animated Image Section */}
       <motion.img
-        className='object-cover md:w-1/2 my-auto  hidden md:block'
+        className='object-cover md:w-[45%] max-h-[70vh]'
         src={selfTaught}
         alt='online class'
         variants={imageVariants}

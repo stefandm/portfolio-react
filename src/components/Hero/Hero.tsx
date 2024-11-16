@@ -27,10 +27,10 @@ const Hero: React.FC = () => {
           Web&nbsp;
           <AnimatedWord words={dynamicWords} />
         </h2>
-        <p className="mt-4 text-lg font-medium ">
+        <p className="mt-4 text-lg md:max-w-[85%]">
         Front-End Developer dedicated to crafting responsive and user-friendly web experiences through elegant problem-solving and continuous learning. Let's collaborate to bring your digital vision to life and create something amazing together!        </p>
         <div className='mt-6'>
-        <Link to="contact" smooth={true} duration={300} offset={-10} className="hover:cursor-pointer h-[5vh] w-[10vw] font-medium border-[1px] border-black hover:bg-gray-100  rounded-md py-3 px-6 text-lg">
+        <Link to="contact" smooth={true} duration={300} offset={-10} className="hover:cursor-pointer h-[5vh] w-[10vw] font-medium border-[1px] border-black hover:bg-gray-100  rounded-md py-3 px-6 text-md">
         Get in Touch
           </Link>
         </div>
